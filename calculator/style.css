@@ -1,0 +1,52 @@
+@media screen and (max-width: 513px) {
+  .button {
+    padding: 10px;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+}
+.flex-container-row {
+  display: flex;
+}
+.button {
+  flex-basis: 25%;
+  font-size: 1.5em;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  padding: 40px;
+  background: linear-gradient(gray, #ddd);
+}
+.double {
+  flex-basis: 50%;
+}
+.display {
+  background-color: black;
+  width: 100%;
+  color: whitesmoke;
+  padding: 10px 20px;
+  font-size: 1.5em;
+}
+.operator {
+  background: linear-gradient(orange, yellow);
+}
+.card {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding: 40px;
+  border-radius: 5px;
+}
+.button:hover {
+  font-weight: bold;
+}
